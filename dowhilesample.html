@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>do-while practice</title>
+</head>
+<body>
+<script>
+    let value;
+    let result = " ";
+    do {
+        value = parseFloat(prompt("Nhập vào số từ 1 --> 10"));
+        if (value != -1.0) {
+            result += value + " "
+        }
+
+    } while (value > 1 && value <= 10)
+
+    alert("Các số bạn vừa nhập là: " + result)
+</script>
+</body>
+</html>
